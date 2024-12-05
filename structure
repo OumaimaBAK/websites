@@ -1,0 +1,9 @@
+/my-repo             <-- This is your repository
+    index.html       <-- This is the main HTML file (required)
+    /css             <-- Folder for CSS files
+        Styling.css    <-- Your CSS file
+    /images          <-- Folder for images
+        img1.jpg
+        img2.JPG
+        lirk.JPG
+        pizza.JPG<-- Your image files
