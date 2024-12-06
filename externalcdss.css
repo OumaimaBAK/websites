@@ -1,0 +1,86 @@
+body {
+    background-image: url('C:/Users/Cloud/Desktop/website/imgs/1.png');
+    background-size: contain;
+  }
+
+        
+video{
+    width :50%;
+    display: flex;
+}
+
+#lin{
+    color: #52C80C;
+    font-family: 'Georgia', serif;
+    background-color: #D6E5E3;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px , ;
+}
+#trans:active{
+    transform: scale(1.5);
+    color: #cfe169;
+   
+
+}
+#trans{
+    color: #9ca17c;
+    background-color: black;
+    
+}
+#on{
+    color: #9ca17c;
+    background-color: rgb(98, 83, 44);
+    width: 10%;
+    transition: width 3s,background-color 3s;
+
+}
+#on:active{
+    width: 20%;
+    background-color: #fef593;
+}
+
+#an{
+    color: #cfe169;
+    background-color: #20191c;
+    width: 120px;
+    height: 20px;
+    position: relative;
+    margin: 50px;
+}
+#an:active{
+    color: #cfe169;
+    background-color: #20191c;
+    width: 120px;
+    height: 20px;
+    position: relative;
+    margin: 50px;
+    animation-name: snakeMove;
+    animation-duration: 3s;
+  }
+  
+  @keyframes snakeMove {
+    0% {
+      background-color: #cdc37e;
+      bottom: 0;
+      left: 0;
+    }
+    33% {
+      background-color: #abb47a;
+      bottom: 0;
+      left: 40px;
+    }
+    66% {
+      background-color: #9cad52;
+      bottom: 0;
+      left: 80px;
+    }
+    100% {
+      background-color: #e6cf5c;
+      bottom: 0;
+      left: 120px;
+    }
+  }
